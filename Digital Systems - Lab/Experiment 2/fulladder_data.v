@@ -1,4 +1,4 @@
-module fa (sum, cout, i1, i2, cin);
+module fa_d(sum, cout, i1, i2, cin);
 	
 	input i1, i2, cin;
 	output sum, cout;
