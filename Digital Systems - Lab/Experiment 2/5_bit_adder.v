@@ -52,7 +52,7 @@ module five_bit_adder (sum, cout, cin, i1, i2);
 
     wire C1, C2, C3, C4;
 
-    fa_g fa0 (sum[0], C1, i1[0], i2[0], cin);
+    fa_g ha0 (sum[0], C1, i1[0], i2[0], 1'b0);
     fa_g fa1 (sum[1], C2, i1[1], i2[1], C1);
     fa_g fa2 (sum[2], C3, i1[2], i2[2], C2);
     fa_g fa3 (sum[3], C4, i1[3], i2[3], C3);
