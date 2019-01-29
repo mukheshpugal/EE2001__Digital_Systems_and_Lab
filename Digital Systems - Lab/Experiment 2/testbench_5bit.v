@@ -4,7 +4,7 @@ module test_5bit_adder;
 	
 	initial begin
 		$dumpfile("five_bit_adder.vcd");
-		$dumpvars(0, test_5bit_adder); //Name of testbench module
+		$dumpvars(0, test_5bit_adder);
 	end
 
 	wire[4:0] sum;
@@ -15,13 +15,18 @@ module test_5bit_adder;
 
 	five_bit_adder DUT(sum, cout, cin, i1, i2);
 
-	initial
-	begin
-	$timeformat(-9,1,"ns",5);
-	$monitor("At t = %t, a = %5b, b = %5b, sum = %5b, cout = %b", $time, i1, i2, sum, cout);
-	i1 = 5'b10101; i2 = 5'b10010; cin=1'b0;
+	initial begin
 
-	#10 $finish;
+		$timeformat(-9,1,"ns",5);
+		$monitor("At t = %t, a = %5b, b = %5b, sum = %5b, cout = %b", $time, i1, i2, sum, cout);
+		
+		i1 = 5'b10101; i2 = 5'b10010; cin=1'b0;
+		#10 i1 = 5'b10001; i2 = 5'b10110; cin=1'b0;
+		#10 i1 = 5'b11101; i2 = 5'b01010; cin=1'b0;
+		#10 i1 = 5'b10111; i2 = 5'b10001; cin=1'b0;
+		#10 i1 = 5'b10100; i2 = 5'b10100; cin=1'b0;
+
+		#10 $finish;
 	end
 
 endmodule
