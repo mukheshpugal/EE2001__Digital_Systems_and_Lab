@@ -1,5 +1,5 @@
 $date
-	Tue Jan 29 14:40:10 2019
+	Tue Jan 29 18:00:23 2019
 $end
 $version
 	Icarus Verilog
@@ -64,19 +64,27 @@ $var wire 1 C t2 $end
 $var wire 1 D t3 $end
 $upscope $end
 $scope module ha0 $end
+$var wire 1 E cin $end
 $var wire 1 , cout $end
-$var wire 1 E i1 $end
-$var wire 1 F i2 $end
-$var wire 1 G sum $end
+$var wire 1 F i1 $end
+$var wire 1 G i2 $end
+$var wire 1 H sum $end
+$var wire 1 I t1 $end
+$var wire 1 J t2 $end
+$var wire 1 K t3 $end
 $upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-1G
-0F
-1E
+0K
+0J
+0I
+1H
+0G
+1F
+0E
 0D
 0C
 1B
@@ -115,3 +123,77 @@ b10101 $
 b111 !
 $end
 #100
+14
+03
+b10110 %
+b10110 '
+b10001 $
+b10001 &
+#200
+1D
+1"
+1)
+b111 !
+b111 (
+0A
+0B
+1<
+04
+1:
+0@
+13
+19
+b1010 %
+b1010 '
+b11101 $
+b11101 &
+#300
+1;
+1*
+05
+18
+1+
+12
+0/
+0D
+1,
+0)
+0H
+1I
+b1000 !
+b1000 (
+0A
+1B
+0C
+0<
+1G
+0.
+0:
+1@
+1-
+09
+b10001 %
+b10001 '
+b10111 $
+b10111 &
+#400
+08
+0,
+0+
+05
+16
+07
+0I
+b1000 !
+b1000 (
+0/
+02
+0G
+14
+0F
+0-
+b10100 %
+b10100 '
+b10100 $
+b10100 &
+#500
