@@ -1,6 +1,11 @@
 `timescale 1ns/100ps
 
 module testbench_dmux_4;
+
+	initial begin
+			$dumpfile("Demultiplexer_1_to_4.vcd");
+			$dumpvars(0, testbench_dmux_4); 
+		end
 	
 	reg in;
 	wire i0_b, i1_b, i2_b, i3_b;

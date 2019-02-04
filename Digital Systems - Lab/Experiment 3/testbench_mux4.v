@@ -1,6 +1,11 @@
 `timescale 1ns/100ps
 
 module testbench_mux_4;
+
+	initial begin
+			$dumpfile("Multiplexer_4_to_1.vcd");
+			$dumpvars(0, testbench_mux_4); 
+		end
 	
 	wire out_b,out_d;
 	reg i0,i1,i2,i3;

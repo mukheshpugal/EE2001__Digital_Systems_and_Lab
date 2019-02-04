@@ -1,0 +1,75 @@
+$date
+	Mon Feb  4 20:15:48 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module testbench_dmux_4 $end
+$var wire 1 ! i3_d $end
+$var wire 1 " i3_b $end
+$var wire 1 # i2_d $end
+$var wire 1 $ i2_b $end
+$var wire 1 % i1_d $end
+$var wire 1 & i1_b $end
+$var wire 1 ' i0_d $end
+$var wire 1 ( i0_b $end
+$var reg 1 ) in $end
+$var reg 1 * s0 $end
+$var reg 1 + s1 $end
+$scope module dmb $end
+$var wire 1 ) in $end
+$var wire 1 * s0 $end
+$var wire 1 + s1 $end
+$var reg 1 ( i0 $end
+$var reg 1 & i1 $end
+$var reg 1 $ i2 $end
+$var reg 1 " i3 $end
+$upscope $end
+$scope module dmd $end
+$var wire 1 ' i0 $end
+$var wire 1 % i1 $end
+$var wire 1 # i2 $end
+$var wire 1 ! i3 $end
+$var wire 1 ) in $end
+$var wire 1 * s0 $end
+$var wire 1 + s1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+0*
+1)
+1(
+1'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#100
+0'
+1%
+1&
+0(
+1+
+#200
+1#
+0%
+1$
+0&
+0+
+1*
+#300
+0#
+1!
+1"
+0$
+1+
+#400

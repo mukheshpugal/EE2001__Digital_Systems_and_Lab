@@ -1,6 +1,11 @@
 `timescale 1ns/1ps
 
 module testbench_max;
+
+	initial begin
+		$dumpfile("MAX(A,B).vcd");
+		$dumpvars(0, testbench_max); 
+	end
 	
 	wire[3:0] max;
 	reg[3:0] i1, i2;
