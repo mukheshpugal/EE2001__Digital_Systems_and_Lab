@@ -6,7 +6,7 @@ This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-M
 
 ### This repo contains all material that was either referred to in lectures, or in lab, or in tutorials:
   * The tutorial sheets are contained in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
-  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory/Books).
+  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
   * Class Notes (by Prof. T.G. Venkatesh) are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
   * The lab experiments are in [Digital Systems - Lab](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Lab). These contain everything that was observed/inferred/coded in lab. 
   * The datasheets for the components used in each experiment are also present in the respective folders.
