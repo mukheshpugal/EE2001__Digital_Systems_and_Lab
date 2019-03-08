@@ -6,7 +6,7 @@ This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-M
 
 ### This repo contains all material that was either referred to in lectures, or in lab, or in tutorials:
   * The tutorial sheets are contained in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
-  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
+  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory/Books).
   * Class Notes (by Prof. T.G. Venkatesh) are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
   * The lab experiments are in [Digital Systems - Lab](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Lab). These contain everything that was observed/inferred/coded in lab. 
   * The datasheets for the components used in each experiment are also present in the respective folders.
@@ -21,6 +21,6 @@ This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-M
    2. Make sure git is installed on your local machine. If not, check out this [link](https://git-scm.com/downloads) to install it.
    3. Open terminal and change to the directory where you want to have a local copy and clone this repo using,   
    ~~~ 
-        git clone <url>
+    git clone <url>
    ~~~
    4. And.... you're done! You now have a local copy of this repo in your machine. Learn more about git and git commands over [here](https://try.github.io/).
