@@ -1,0 +1,125 @@
+$date
+	Tue Apr  2 17:36:51 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench_mult $end
+$var wire 4 ! out [3:0] $end
+$var reg 2 " i1 [1:0] $end
+$var reg 2 # i2 [1:0] $end
+$scope module m $end
+$var wire 2 $ a [1:0] $end
+$var wire 2 % b [1:0] $end
+$var wire 1 & t1a $end
+$var wire 1 ' t1b $end
+$var wire 1 ( t2a $end
+$var wire 1 ) t2b $end
+$var wire 4 * o [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+0)
+0(
+0'
+0&
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 "
+b1 $
+#20000
+b10 "
+b10 $
+#30000
+b11 "
+b11 $
+#40000
+b1 #
+b1 %
+b0 "
+b0 $
+#50000
+b1 !
+b1 *
+b1 "
+b1 $
+#60000
+b10 !
+b10 *
+1&
+b10 "
+b10 $
+#70000
+b11 !
+b11 *
+b11 "
+b11 $
+#80000
+b0 !
+b0 *
+0&
+b10 #
+b10 %
+b0 "
+b0 $
+#90000
+b10 !
+b10 *
+1'
+b1 "
+b1 $
+#100000
+b100 !
+b100 *
+0'
+1)
+b10 "
+b10 $
+#110000
+b110 !
+b110 *
+1'
+b11 "
+b11 $
+#120000
+b0 !
+b0 *
+0'
+0)
+b11 #
+b11 %
+b0 "
+b0 $
+#130000
+b11 !
+b11 *
+1'
+b1 "
+b1 $
+#140000
+b110 !
+b110 *
+1&
+0'
+1)
+b10 "
+b10 $
+#150000
+1'
+b1001 !
+b1001 *
+1(
+b11 "
+b11 $
+#160000
