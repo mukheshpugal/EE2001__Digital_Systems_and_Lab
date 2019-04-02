@@ -1,4 +1,4 @@
-# EE2001_Digital_Systems_Lab
+# EE2001_Digital_Systems_and_Lab
 
 This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-May 2019)</b>, taught jointly by Prof. Ananth Krishnan (Theory), Prof. T.G. Venkatesh (Theory) and Prof. Vinita Vasudevan (Lab).
 
