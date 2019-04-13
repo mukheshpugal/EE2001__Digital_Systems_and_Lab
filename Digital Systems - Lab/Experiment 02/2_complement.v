@@ -6,15 +6,10 @@ module twoscomp(a2c,a);
 	wire [4:0] x = 5'b00001;
 	wire cin =1'b0;
 
-
-	genvar i;
-	generate
-		for(i =0;i<4;i=i+1)
-		begin
-			assign temp[i] = a[i];
-		end
-	endgenerate
-
+	assign temp[0] = a[0];
+	assign temp[1] = a[1];
+	assign temp[2] = a[2];
+	assign temp[3] = a[3];
 	assign temp[4] = a[3];
 
 	assign tempnew = ~(temp);
