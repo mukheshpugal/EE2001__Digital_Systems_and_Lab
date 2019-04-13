@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Akilesh Kannan
+// Engineer: Akilesh Kannan, Mukhesh Pugalendhisudha
 // 
 // Create Date:    15:56:38 04/02/2019 
 // Design Name: 
@@ -11,7 +11,7 @@
 `timescale 1us / 100ns
 
 module clk1h(input clk, input rst, output clk1hz);
-	 reg clk1hnew;
+	reg clk1hnew;
 	reg[25:0] counter;
 	 
 	 initial begin 
@@ -32,8 +32,8 @@ module clk1h(input clk, input rst, output clk1hz);
 			counter <= counter + 1;
 	 end	
 	 assign clk1hz = clk1hnew;
-endmodule
 
+endmodule
 module test_bench;
 
 	initial 
