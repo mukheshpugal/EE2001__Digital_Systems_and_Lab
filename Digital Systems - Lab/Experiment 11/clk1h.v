@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Akilesh Kannan, Mukhesh Pugalendhisudha
+// Engineer: Akilesh Kannan, Mukhesh Pugalendhi
 // 
 // Create Date:    15:56:38 04/02/2019 
 // Design Name: 
