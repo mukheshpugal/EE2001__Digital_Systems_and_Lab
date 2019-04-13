@@ -4,14 +4,6 @@ module grey_counter(clk, x, rst, out);
 	input clk, x, rst;
 	output reg[1:0] out;
 	reg[1:0] pr, nx;
-
-	always @(posedge clk, negedge clk)
-	begin
-		if (rst)
-			pr<=2'b00;
-		else
-			pr<=nx;
-	end
 	
 	always @(posedge clk) 
 		begin
@@ -31,17 +23,9 @@ module grey_counter(clk, x, rst, out);
 					3'b111: nx = 2'b10;
 					default: nx = 2'b00;
 				endcase
+				pr <= nx;
+				out <= pr;
 			end
-		end
-		
-	always @(posedge clk)
-		begin
-			case(pr)
-				2'b00: out <= 2'b00;
-				2'b01: out <= 2'b01;
-				2'b10: out <= 2'b10;
-				2'b11: out <= 2'b11;
-			endcase
 		end
 endmodule
 
