@@ -17,7 +17,7 @@ This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-M
    ###### Method (a): (For those who do not know to use the command line)
    Click on the green button (Clone or Download) on the top-right corner of this page.
    ###### Method (b): (For those who are comfortable using the command line)
-   1. Copy the url of this repo. https://github.com/aklsh/EE2001__Digital_Systems_and_Lab.git .
+   1. Copy the url of this repo. https://github.com/mukheshpugal/EE2001__Digital_Systems_and_Lab.git .
    2. Make sure git is installed on your local machine. If not, check out this [link](https://git-scm.com/downloads) to install it.
    3. Open terminal and change to the directory where you want to have a local copy and clone this repo using,   
    ~~~ 
