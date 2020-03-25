@@ -5,10 +5,10 @@ This repository contains material used in <b>EE2001 - Digital Systems+Lab (Jan-M
 ---
 
 ### This repo contains all material that was either referred to in lectures, or in lab, or in tutorials:
-  * The tutorial sheets of Jan-May 2018 and Jan-May 2019 are contained in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
-  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
-  * Class Notes by various Profs are present in [Digital Systems - Theory](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
-  * The material for lab experiments are in [Digital Systems - Lab](https://github.com/aklsh/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Lab). They contain everything done in/for lab experiments.
+  * The tutorial sheets of Jan-May 2018 and Jan-May 2019 are contained in [Digital Systems - Theory](https://github.com/mukheshpugal/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
+  * PDF versions of the textbooks are present in [Digital Systems - Theory](https://github.com/mukheshpugal/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
+  * Class Notes by various Profs are present in [Digital Systems - Theory](https://github.com/mukheshpugal/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Theory).
+  * The material for lab experiments are in [Digital Systems - Lab](https://github.com/mukheshpugal/EE2001__Digital_Systems_and_Lab/tree/master/Digital%20Systems%20-%20Lab). They contain everything done in/for lab experiments.
   * The datasheets for the components used in each experiment are also present in the respective folders.
   
 ---
